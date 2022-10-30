@@ -47,6 +47,5 @@ func main() {
 	var numero1 int
 	fmt.Scan(&numero1)
 	fmt.Printf("Il numero inserito è: %d.\n", numero1)
-
 	// redirezione dell'input go run <nomefile>.go < <nomefileinput>.txt
 }
