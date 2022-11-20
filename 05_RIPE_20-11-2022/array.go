@@ -7,7 +7,7 @@ func main() {
 	var array [4]int // array [0,0,0,0]
 
 	// dichiarazione e inizializzazione
-	var arr [4]int = [4]int{1, 2, 3, 4}
+	//var arr [4]int = [4]int{1, 2, 3, 4}
 
 	//inizializzazione array completa
 	array = [4]int{4, 3, 2, 1}
@@ -25,4 +25,7 @@ func main() {
 	for indice, elemento := range array {
 		fmt.Printf("%d %d\n", indice, elemento)
 	}
+
+	fmt.Printf("La capacità è: %d\n", cap(array))
+	fmt.Println(array)
 }
