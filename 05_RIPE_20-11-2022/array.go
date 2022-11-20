@@ -6,6 +6,9 @@ func main() {
 	// dichiarazione di un array
 	var array [4]int // array [0,0,0,0]
 
+	// dichiarazione e inizializzazione
+	var arr [4]int = [4]int{1, 2, 3, 4}
+
 	//inizializzazione array completa
 	array = [4]int{4, 3, 2, 1}
 
@@ -18,7 +21,7 @@ func main() {
 		fmt.Printf("%d ", elemento)
 	}
 
-	//for-range su array
+	//for-range su array (iterare con indice crescente a passo 1)
 	for indice, elemento := range array {
 		fmt.Printf("%d %d\n", indice, elemento)
 	}
