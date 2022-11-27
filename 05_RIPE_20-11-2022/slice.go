@@ -54,4 +54,6 @@ func main() {
 	// b = append(b, 10) crea una nuova slice aggiungendo in coda il numero
 	c[2] = 12
 	fmt.Println("b:", b)
+
+	//copy(dest, source) non passa il puntantore ma fa una copia
 }
