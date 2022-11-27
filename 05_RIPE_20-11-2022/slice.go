@@ -47,9 +47,11 @@ func main() {
 	//slice da x a fine
 	fmt.Println(b[2:])
 
+	//
 	fmt.Println("INIZIO")
-	c := b
-	fmt.Println("c:", c)
-	b = append(b, 10)
-	fmt.Println("c:", c)
+	c := b // occhio collegati dal puntantore
+	fmt.Println("b:", b)
+	// b = append(b, 10) crea una nuova slice aggiungendo in coda il numero
+	c[2] = 12
+	fmt.Println("b:", b)
 }

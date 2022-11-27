@@ -9,6 +9,7 @@ func StampaScala(gradini int) {
 }
 
 func StampaGradino(gradino int) {
+	// Caso iniziale senza spazio
 	if gradino == 0 {
 		fmt.Print("***\n  *\n")
 		return
